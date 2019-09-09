@@ -1,0 +1,33 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "Este arquivo está sendo utilizado para o cursod e sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rccosta/Praticando-Sass.git"
+  },
+  "keywords": [
+    "Praticando",
+    "Sass",
+    "boas",
+    "práticas",
+    "com",
+    "sass"
+  ],
+  "author": "Rodrigo Costa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rccosta/Praticando-Sass/issues"
+  },
+  "homepage": "https://github.com/rccosta/Praticando-Sass#readme",
+  "dependencies": {
+    "gulp-sass": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
