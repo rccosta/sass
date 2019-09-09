@@ -9,5 +9,14 @@
 </head>
 <body>
 
+<h1>Rodrigo Costa</h1>
+<h2>Diretor de Arte e Desenvolvedor Front-end</h2>
+<hr>
+<p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, ipsum? In nulla recusandae tempore repellat nesciunt praesentium, esse delectus iste? Sed expedita laborum ullam. Vel sequi eius quis nemo sit.
+<a href="#">Acesse meu site</a>
+</p>
+<hr>
+
 </body>
 </html>

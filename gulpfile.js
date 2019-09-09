@@ -8,7 +8,7 @@ const destinoCss = ['./build/css']
 gulp.task('compilarSass', () =>{
   return gulp
   .src(entradaCss)
-  .pipe(compilaSass().on("error", sass.logError))
+  .pipe(compilaSass().on("error", compilaSass.logError))
   .pipe(concat('app.css'))
   .pipe(gulp.dest(destinoCss))
 })

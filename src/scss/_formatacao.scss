@@ -1,0 +1,23 @@
+h1{
+  color: $cor2;
+  @include separador(200px, $cor1)
+}
+
+h2{
+  color: $cor1;
+  @include separador(200px, $cor2)
+
+}
+
+p{
+  // font-size: 0px + 5 / 4; 
+  color: $cor-primaria;
+  background: $cor-secundaria; 
+  @include size-1(125);
+  font-size: em(22, 12);
+  a{
+    font-size: em(16);
+    color:$cor2;
+  }
+}
+

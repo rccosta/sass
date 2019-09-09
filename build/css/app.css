@@ -1,0 +1,36 @@
+/*
+* Estudps de mixins para projetos 
+*/
+h1 {
+  color: #223A5E; }
+  h1::after {
+    content: '';
+    display: block;
+    border-radius: 10px;
+    width: 200px;
+    height: 8px;
+    margin-top: 5px;
+    color: #04BB76;
+    background: #04BB76; }
+
+h2 {
+  color: #04BB76; }
+  h2::after {
+    content: '';
+    display: block;
+    border-radius: 10px;
+    width: 200px;
+    height: 8px;
+    margin-top: 5px;
+    color: #223A5E;
+    background: #223A5E; }
+
+p {
+  color: #04BB76;
+  background: #223A5E;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.83333em; }
+  p a {
+    font-size: 1em;
+    color: #223A5E; }

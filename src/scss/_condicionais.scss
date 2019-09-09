@@ -1,0 +1,10 @@
+$tema: padrao;
+$cor-primaria:$cor1;
+$cor-secundaria:$cor2;
+@if $tema == padrao {
+  $cor-primaria:$cor1;
+  $cor-secundaria:$cor2; 
+}  @else if $tema == deserto{
+    $cor-primaria: $cor2;
+    $cor-secundaria: $cor1;
+  }

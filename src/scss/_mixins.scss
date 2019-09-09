@@ -1,0 +1,69 @@
+/*
+* Estudps de mixins para projetos 
+*/
+
+//Mixin para títulos
+@mixin titulo-principal{
+  font-size: 4em;
+  font-weight: bold;
+  line-height: 1;
+}
+
+//Para ajudar com prefixos
+@mixin border-box{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+//mixins com argumentos
+@mixin separador($largura: 100px, $color: #d8d8d8){
+  &::after{
+    content: '';
+    display: block;
+    border-radius: 10px;
+    width: $largura;
+    height: 8px;
+    margin-top: 5px;
+    color: $color;
+    background: $color;
+  }
+}
+
+
+//Tipografias
+@mixin size-1($size){
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  @if $size == 16 {
+    font-size: 1em;
+  }
+
+  @else if $size == 18 {
+    font-size:2em;
+  }
+
+  @else if $size == 22 {
+    font-size:3em;
+  }
+}
+
+//Mixin responsivo
+@mixin d($device){
+  @if $device == mobile{
+    @media only screen  and (max-width: 767){
+      @content;
+    }
+  }
+  @else if $device == tablet{
+    @media only screen  and (min-width: 768) and (max-width: 959px){
+      @content;
+    }
+  }
+  @else if $device == desktop{
+    @media only screen and (min-width:960px) and (max-width: auto){
+      @content;
+    }
+  }
+}
+
